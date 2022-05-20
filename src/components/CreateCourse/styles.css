@@ -1,0 +1,33 @@
+body, html {
+    height: 100%;
+  }
+  
+.bg {
+    /* The image used */
+    background-image: url("purpleblur.png");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .main {
+    justify-content: center;
+    display: grid;
+    color: wheat;
+    background-image:url('purpleblur.png');
+
+    input{
+      padding: 12px 50px ;
+    }
+
+    button{
+      margin-top: 1rem;
+      padding: 10px;
+
+    }
+
+}
